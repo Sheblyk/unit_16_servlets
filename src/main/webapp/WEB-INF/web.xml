@@ -1,0 +1,13 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>statistic</servlet-name>
+        <servlet-class>ua.com.service.Statistic</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>statistic</servlet-name>
+        <url-pattern>/users</url-pattern>
+    </servlet-mapping>
+</web-app>
